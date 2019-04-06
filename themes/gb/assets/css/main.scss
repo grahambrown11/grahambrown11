@@ -92,3 +92,17 @@ aside {
 .footer-home {
     margin-top: 40px;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: color("blue-grey", "darken-4");
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: color("blue-grey", "darken-3");
+    border-radius: 20px;
+}
