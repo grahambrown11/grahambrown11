@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graham Brown</title>
+    <link>https://grahambrown11.com/</link>
+    <description>Recent content on Graham Brown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 01 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://grahambrown11.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Developer &amp; IT Operations, Different&amp;nbsp;Life</title>
+      <link>https://grahambrown11.com/6/</link>
+      <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://grahambrown11.com/6/</guid>
+      <description>&lt;p&gt;Implement open source technologies and platforms to build an online life insurance system facilitated by a call centre.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>BI Developer, ABSA</title>
+      <link>https://grahambrown11.com/5/</link>
+      <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://grahambrown11.com/5/</guid>
+      <description>&lt;p&gt;Contracting position where I helped apply software development best practices to aid the growth and reputability of the team.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Developer, Ledula</title>
+      <link>https://grahambrown11.com/4/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://grahambrown11.com/4/</guid>
+      <description>&lt;p&gt;One of the 4 co-founders, I was everything from developer to barista - my responsibility was implementing the idea: finding service providers your friends trust.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Senior Management and IT Architect, healthbridge</title>
+      <link>https://grahambrown11.com/3/</link>
+      <pubDate>Tue, 01 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://grahambrown11.com/3/</guid>
+      <description>&lt;p&gt;Architecting systems for workflow integration and real-time data switching to aid proficient healthcare practice management and being an integral part of MANCO which involved strategic planning and driving company values.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Developer, healthbridge</title>
+      <link>https://grahambrown11.com/2/</link>
+      <pubDate>Wed, 01 Oct 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://grahambrown11.com/2/</guid>
+      <description>&lt;p&gt;Creating a framework to handle the complexities of multi-threading, configuration and message flow for real-time switching and implementing a customers portal. Found a way to minimise use of server resources by combining multiple applications into one but still allowing the flexibility to run independently too.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Support Engineer, healthbridge</title>
+      <link>https://grahambrown11.com/1/</link>
+      <pubDate>Mon, 01 Nov 1999 00:00:00 +0000</pubDate>
+      
+      <guid>https://grahambrown11.com/1/</guid>
+      <description>&lt;p&gt;Installing, maintaining and monitoring the server and network infrastructure. Integral in the Year 2000 preparation testing both hardware and software.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>https://grahambrown11.com/0/</link>
+      <pubDate>Mon, 01 Nov 1999 00:00:00 +0000</pubDate>
+      
+      <guid>https://grahambrown11.com/0/</guid>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

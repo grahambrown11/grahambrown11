@@ -1,0 +1,6 @@
+baseURL = "https://grahambrown11.com/"
+languageCode = "en-gb"
+title = "Graham Brown"
+publishDir = "docs"
+theme = "gb"
+googleAnalytics = "UA-137430899-1"

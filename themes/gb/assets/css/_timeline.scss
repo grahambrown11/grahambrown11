@@ -1,0 +1,62 @@
+.timeline {
+    width: 100%;  
+    position: relative;
+    transition: all 0.4s ease;
+  
+    &:before {
+      content: "";
+      width: 3px;
+      height: 100%;
+      background: color("blue-grey", "lighten-1");
+      transform: translate(-50%);
+      top: 0;
+      position: absolute;
+      @media #{$large-and-up} {
+        left: 50%;
+      }
+    }
+    &:after {
+      content: "";
+      clear: both;
+      display: table;
+      width: 100%;
+    }
+  
+    .timeline-item {
+      position: relative;
+  
+      .timeline-icon {
+        background: color("blue-grey", "lighten-1");
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+        margin-left: -10px;
+        border-radius: 50%;
+        @media #{$large-and-up} {
+          left: 50%;
+        }
+      }
+
+      .col.l6 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .date {
+        margin: 25px 0;
+      }
+
+      @media #{$large-and-up} {
+        .date-right {
+          text-align: right;
+        }
+  
+        .content-right {
+          text-align: right;
+        }
+      }  
+
+    }
+  }

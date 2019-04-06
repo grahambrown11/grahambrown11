@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+// MATERIALIZE
+// Color
+@import "components/color-variables";
+@import "components/color-classes";
+$sidenav-bg-color: color("blue-grey", "darken-4");
+$sidenav-font-color: color("blue-grey", "lighten-4");
+$card-link-color: color("blue", "accent-4");
+$card-link-color-light: lighten($card-link-color, 20%);
+
+// Variables;
+@import "components/variables";
+// Reset
+@import "components/normalize";
+// components
+@import "components/global";
+@import "components/badges";
+@import "components/icons-material-design";
+@import "components/grid";
+@import "components/typography";
+@import "components/transitions";
+@import "components/cards";
+@import "components/buttons";
+@import "components/waves";
+@import "components/modal";
+@import "components/materialbox";
+@import "components/forms/forms";
+@import "components/sidenav";
+@import "components/tapTarget";
+// END MATERIALIZE
+@import "timeline";
+
+main {
+    padding: 10px;
+    margin-top: 20px;
+    @media #{$large-and-up} {
+        padding-left: $sidenav-width + 10;
+    }
+    
+    .header {
+        h1 {
+            margin-top: 0;
+        }
+    }
+
+    .post-title {
+        margin-top: 0;
+    }
+
+    .card .card-action a.no-margin {
+        margin: 0 !important;
+    }
+}
+
+aside {
+    h1 {
+        font-size: 50px;
+        margin-top: 0;
+    }
+}
+
+.mug {
+    margin: 10px auto 0;
+    width: 100%;
+    img { 
+        width: 300px;
+        height: 300PX;
+        border-radius: 100%;
+    }
+}
+
+.sidenav li.active {
+    background-color: color("blue-grey", "darken-3");
+}
+
+.mobile-header {
+    h1 {
+        font-size: 48px;
+        margin: 0 0 10px;
+        margin-bottom: 10px;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin-right: 10px;
+        margin-bottom: -8px;
+    }
+}
+
+.footer-home {
+    margin-top: 40px;
+}
