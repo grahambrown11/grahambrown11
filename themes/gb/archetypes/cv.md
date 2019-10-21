@@ -1,7 +1,7 @@
 ---
 title: ""
 date: {{ .Date }}
+timeperiod: "MMM yyyy - MMM yyyy"
 draft: false
-menu: blog
-weight: x
+weight: 9x
 ---

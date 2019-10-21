@@ -8,6 +8,7 @@ $sidenav-bg-color: color("blue-grey", "darken-4");
 $sidenav-font-color: color("blue-grey", "lighten-4");
 $card-link-color: color("blue", "accent-4");
 $card-link-color-light: lighten($card-link-color, 20%);
+$sidenav-padding: 10px;
 
 // Variables;
 @import "components/variables";
@@ -58,6 +59,15 @@ aside {
         font-size: 50px;
         margin-top: 0;
     }
+
+    .sidenav li.active {
+        background-color: color("blue-grey", "darken-3");
+    }
+
+    li.sub-menu {
+        margin-left: 15px;
+    }
+    
 }
 
 .mug {
@@ -68,10 +78,6 @@ aside {
         height: 300PX;
         border-radius: 100%;
     }
-}
-
-.sidenav li.active {
-    background-color: color("blue-grey", "darken-3");
 }
 
 .mobile-header {

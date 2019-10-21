@@ -4,3 +4,23 @@ title = "Graham Brown"
 publishDir = "docs"
 theme = "gb"
 googleAnalytics = "UA-137430899-1"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = -120
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+    weight = -100

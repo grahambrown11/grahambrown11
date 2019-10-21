@@ -1,21 +1,46 @@
+{{ $currentPage := . }}
 <aside id="slide-out" class="sidenav sidenav-fixed">
     {{- partial "mug.html" . -}}
     <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-            <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                <a href="{{ .URL }}">
-                    <span class="truncate">{{ .Name | safeHTML }}</span>
-                </a>
+        {{ if or (eq $currentPage.CurrentSection.Name "Cvs") (eq $currentPage.CurrentSection.Name "Blogs") }}
+            <li>
+                <a href="/">Home</a>
             </li>
         {{ end }}
-<!--
-        <li>
-            <a href=""></a>
-        </li>
--->
-</ul>
+        {{ if eq $currentPage.CurrentSection.Name "Cvs" }}
+            <li class="{{ if eq $currentPage.Name "Cvs" }}active{{ end }} ">
+                <a href="/cv/">
+                    <span class="truncate">CV</span>
+                </a>
+            </li>
+            {{ range .Site.Menus.cv }}
+                <li class="sub-menu {{ if $currentPage.IsMenuCurrent "cv" . }}active{{ end }}">
+                    <a href="{{ .URL }}">
+                        <span class="truncate">{{ .Name | safeHTML }}</span>
+                    </a>
+                </li>
+            {{ end }}
+        {{ else if eq $currentPage.CurrentSection.Name "Blogs" }}
+            <li class="{{ if eq $currentPage.Name "Blogs" }}active{{ end }} ">
+                <a href="/blog/">
+                    <span class="truncate">Blog</span>
+                </a>
+            </li>
+            {{ range .Site.Menus.blog }}
+                <li class="sub-menu {{ if $currentPage.IsMenuCurrent "blog" . }}active{{ end }}">
+                    <a href="{{ .URL }}">
+                        <span class="truncate">{{ .Name | safeHTML }}</span>
+                    </a>
+                </li>
+            {{ end }}
+        {{ else }}
+            {{ range .Site.Menus.main }}
+                <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                    <a href="{{ .URL }}">
+                        <span class="truncate">{{ .Name | safeHTML }}</span>
+                    </a>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
 </aside>
