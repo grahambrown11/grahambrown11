@@ -34,9 +34,12 @@ $sidenav-padding: 10px;
 
 main {
     padding: 10px;
-    margin-top: 20px;
-    @media #{$large-and-up} {
-        padding-left: $sidenav-width + 10;
+    
+    &.withside {
+        @media #{$large-and-up} {
+            margin-top: 20px;
+            padding-left: $sidenav-width + 10;
+        }
     }
     
     .header {
@@ -80,8 +83,8 @@ aside {
     }
 }
 
-.mobile-header {
-    h1 {
+.header {
+    h2 {
         font-size: 48px;
         margin: 0 0 10px;
         margin-bottom: 10px;

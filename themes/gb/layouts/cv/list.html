@@ -1,3 +1,7 @@
+{{ define "main-class" }}withside{{ end }}
+{{ define "aside" }}
+  {{- partial "aside.html" . -}}
+{{ end }}
 {{ define "main" }}
 <div class="hide-on-large-only">
   {{- partial "mug.html" . -}}
@@ -22,5 +26,8 @@
       </div>
     </div>
   {{ end }}
+</div>
+<div class="footer-home hide-on-large-only">
+  <a href="/home/">Home</a>
 </div>
 {{ end }}

@@ -1,7 +1,10 @@
+{{ define "main-class" }}withside{{ end }}
+{{ define "aside" }}
+  {{- partial "aside.html" . -}}
+{{ end }}
 {{ define "header" }}
-<div class="mobile-header hide-on-large-only">
-  <h1><img src="/images/GB-Mug.jpg">Graham Brown</h1>
-  {{- partial "tagline.html" . -}}
+<div class="hide-on-large-only">
+  {{- partial "header.html" . -}}
 </div>
 {{ end }}
 {{ define "main" }}
@@ -19,6 +22,6 @@
     </div>
   </article>
   <div class="footer-home hide-on-large-only">
-      <a href="/">Home</a>
+      <a href="/cv/">CV</a>
   </div>
 {{ end }}

@@ -2,15 +2,10 @@
 <aside id="slide-out" class="sidenav sidenav-fixed">
     {{- partial "mug.html" . -}}
     <ul>
-        {{ if or (eq $currentPage.CurrentSection.Name "Cvs") (eq $currentPage.CurrentSection.Name "Blogs") }}
-            <li>
-                <a href="/">Home</a>
-            </li>
-        {{ end }}
         {{ if eq $currentPage.CurrentSection.Name "Cvs" }}
             <li class="{{ if eq $currentPage.Name "Cvs" }}active{{ end }} ">
                 <a href="/cv/">
-                    <span class="truncate">CV</span>
+                    <span>CV</span>
                 </a>
             </li>
             {{ range .Site.Menus.cv }}
@@ -23,7 +18,7 @@
         {{ else if eq $currentPage.CurrentSection.Name "Blogs" }}
             <li class="{{ if eq $currentPage.Name "Blogs" }}active{{ end }} ">
                 <a href="/blog/">
-                    <span class="truncate">Blog</span>
+                    <span>Blog</span>
                 </a>
             </li>
             {{ range .Site.Menus.blog }}

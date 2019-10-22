@@ -2,10 +2,10 @@
 <html>
     {{- partial "head.html" . -}}
     <body class="blue-grey darken-4">
-        {{- partial "aside.html" . -}}
-        <main>
+        {{- block "aside" . }}{{- end }}
+        <main class="{{- block "main-class" . }}{{- end }}">
             {{- block "header" . }}{{- end }}
-            <div class="clear"></div>
+            <div class="clearfix"></div>
             <div class="content">
                 {{- block "main" . }}{{- end }}
             </div>
