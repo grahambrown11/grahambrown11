@@ -1,7 +1,7 @@
 ---
 title: "Building a website with Hugo"
 date: 2019-10-20
-draft: true
+draft: false
 menu: blog
 weight: 1
 ---
