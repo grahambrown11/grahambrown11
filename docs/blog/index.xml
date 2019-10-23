@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Graham Brown</title>
+    <link>https://grahambrown11.com/blog/</link>
+    <description>Recent content in Blog on Graham Brown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 20 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://grahambrown11.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building a website with Hugo</title>
+      <link>https://grahambrown11.com/blog/hugo/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://grahambrown11.com/blog/hugo/</guid>
+      <description>&lt;p&gt;When it comes to hosting a website there are many options - from using a database with a programming language that generates pages to hand editing page or somewhere in-between.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

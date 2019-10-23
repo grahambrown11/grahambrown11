@@ -1,0 +1,8 @@
+<div class="header">
+    <h2 class="center"><a href="/"><img src="/images/GB-Mug.jpg"></a>Graham{{ if eq .CurrentSection.Name "CV" }} Brown{{ else }}'s Blog{{ end }}</h2>
+    {{ if eq .CurrentSection.Name "CV" }}
+        <div class="tagline">
+            {{- partial "tagline.html" . -}}
+        </div>
+    {{ end }}
+</div>
