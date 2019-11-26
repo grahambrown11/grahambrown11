@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Graham Brown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 20 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://grahambrown11.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hacktoberfest (Open source contribution)</title>
+      <link>https://grahambrown11.com/blog/hacktoberfest-2019/</link>
+      <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://grahambrown11.com/blog/hacktoberfest-2019/</guid>
+      <description>&lt;p&gt;Most businesses use Open Source Software in some way, whether it’s bundled in a product they purchased or using it directly, however not many give back to those projects…&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Building a website with Hugo</title>
