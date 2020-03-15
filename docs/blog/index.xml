@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Graham Brown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://grahambrown11.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UPS Monitoring</title>
+      <link>https://grahambrown11.com/blog/ups_monitor/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://grahambrown11.com/blog/ups_monitor/</guid>
+      <description>&lt;p&gt;In order to run any computer you need power - so without power your computer is rendered useless, and that effectively renders a modern business dead too.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Asterisk Africa Community Conference 2018</title>
