@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Graham Brown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 18 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://grahambrown11.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Is My Alarm Panel Smart?</title>
+      <link>https://grahambrown11.com/blog/smart-alarm/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://grahambrown11.com/blog/smart-alarm/</guid>
+      <description>&lt;p&gt;In this modern world with the Internet everything has become &lt;em&gt;smart&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Business Continuity in the COVID-19 pandemic</title>
