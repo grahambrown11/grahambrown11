@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CV on Graham Brown</title>
@@ -6,10 +6,15 @@
     <description>Recent content in CV on Graham Brown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 01 Mar 2014 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://grahambrown11.com/cv/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://grahambrown11.com/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Senior Developer &amp; Solution Architect, ono//connect</title>
+      <link>https://grahambrown11.com/cv/7/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://grahambrown11.com/cv/7/</guid>
+      <description>&lt;p&gt;Financail transaction switching and integraitions from merchant teminals to banks.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Developer &amp; IT Operations, Different&amp;nbsp;Life</title>
@@ -71,7 +76,7 @@
       <pubDate>Mon, 01 Nov 1999 00:00:00 +0000</pubDate>
       
       <guid>https://grahambrown11.com/cv/0/</guid>
-      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+      <description>&lt;p&gt; &lt;/p&gt;</description>
     </item>
     
   </channel>

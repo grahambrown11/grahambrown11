@@ -1,95 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://grahambrown11.com/blog/smart-alarm/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://grahambrown11.com/blog/business_continuity/</loc>
     <lastmod>2020-03-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://grahambrown11.com/blog/ups_monitor/</loc>
     <lastmod>2020-03-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://grahambrown11.com/blog/asterisk-africa-2018/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://grahambrown11.com/blog/hacktoberfest-2019/</loc>
     <lastmod>2019-11-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://grahambrown11.com/blog/hugo/</loc>
     <lastmod>2019-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://grahambrown11.com/cv/7/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://grahambrown11.com/cv/6/</loc>
     <lastmod>2014-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://grahambrown11.com/cv/5/</loc>
     <lastmod>2013-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://grahambrown11.com/cv/4/</loc>
     <lastmod>2012-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://grahambrown11.com/cv/3/</loc>
     <lastmod>2008-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://grahambrown11.com/cv/2/</loc>
     <lastmod>2003-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://grahambrown11.com/cv/1/</loc>
     <lastmod>1999-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://grahambrown11.com/cv/0/</loc>
     <lastmod>1999-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://grahambrown11.com/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://grahambrown11.com/cv/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://grahambrown11.com/blog/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://grahambrown11.com/cv/</loc>
-    <lastmod>2014-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://grahambrown11.com/</loc>
+    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://grahambrown11.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://grahambrown11.com/tags/</loc>
-    <priority>0</priority>
   </url>
-  
 </urlset>
