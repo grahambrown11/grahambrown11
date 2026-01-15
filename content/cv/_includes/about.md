@@ -1,7 +1,3 @@
----
-title: "CV"
-draft: false
-menu: main
-weight: 0
----
+### About Me
+
 I am a fullstack software developer with experience in multiple technologies and code languages. I have architected and developed apps for the web as well as mobile and have worked on both the frontend and backend of the various systems. The majority of my experience is in: engineering on backend systems written in Java and Kotlin using the SpringBoot framework; web frontends using Angular or React; and mobile app development primarily on Android. I enjoy being involved in solution design from the initial stages of understanding the business problem to engineering the software and getting the solution running on local servers or cloud platforms like AWS or Azure. A couple of my favourite projects include building a dialler that was fully integrated into an insurance policy platform (which I was also involved in building) at Different Life. A sales agent in the call centre could retrieve a lead and phone them with a simple button click. Besides the call being recorded, events from the sales process were stored and could be used to jump to that spot in the call recording when playing back the recording. Recently at Stitch Money I implemented a payment application in a multi-module Android project that runs on different vendor terminals. The application operates in a standalone or integrated mode. In standalone a merchant captures the sale amount and the customer presents their card. Alternatively a merchant’s POS (point of sale) system can be integrated to initiate the payment using an SDK when the app is on the device or via Rest APIs when external. This solution was developed and certified according to international payment standards (EMV L3 and PCI P2PE).

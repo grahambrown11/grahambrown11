@@ -1,0 +1,142 @@
+@media print {
+    * {
+        print-color-adjust: exact !important;
+        -webkit-print-color-adjust: exact !important;
+    }
+
+    html {
+        color: #000;
+    }
+
+    h1 {
+        margin: 10px
+    }
+
+    .blue-grey {
+
+        &.darken-1,
+        &.darken-3,
+        &.darken-4 {
+            background-color: #fff !important;
+            ;
+        }
+    }
+
+    .blue-grey.darken-1 {
+        background-color: #fff !important;
+        ;
+    }
+
+    .hide-print {
+        display: none;
+    }
+
+    .show-print {
+        display: block !important;
+    }
+
+    .mug {
+        margin-top: 0;
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+    }
+
+    .card,
+    .card-panel {
+        box-shadow: none !important;
+        /* Essential for the pseudo-element to align */
+        position: relative !important;
+        transform: none !important;
+        z-index: 1;
+        border: 0.5pt solid #eeeeee;
+    }
+
+    .card::after,
+    .card-panel::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* Apply the shadow here instead */
+        box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.14);
+        /* Move it behind the content so it doesn't interfere with text */
+        z-index: -1;
+        /* Match the card's rounded corners */
+        border-radius: inherit;
+        /* Force the PDF engine to render this as a separate layer */
+        transform: translateZ(-1px);
+    }
+
+    main {
+        &.withside {
+            padding-top: 0;
+            margin-top: 0;
+
+            @media #{$large-and-up} {
+                padding-left: 10px;
+            }
+        }
+    }
+
+    .hoverable:hover {
+        box-shadow: none;
+    }
+
+    h3.timeline-title {
+        text-align: left;
+    }
+
+    .timeline {
+        &:before {
+            background: #6c6c6c;
+            left: auto;
+        }
+
+        .timeline-item {
+            &.row {
+                break-inside: avoid;
+                .col.l6 {
+                    width: 100%;
+                }
+            }
+
+            .timeline-icon {
+                background: #6c6c6c;
+                left: auto;
+            }
+
+            &.row .col {
+
+                &.pull-l6,
+                &.push-l6 {
+                    left: auto !important;
+                    right: auto !important;
+                }
+            }
+
+            .date-right {
+                text-align: left;
+            }
+
+            .content-right {
+                .card-title {
+                    text-align: left;
+                }
+            }
+
+        }
+
+    }
+
+    .additional {
+        .row {
+            margin-bottom: 0;
+        }
+    }
+
+}

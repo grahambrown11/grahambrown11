@@ -3,9 +3,20 @@
   {{- partial "aside.html" . -}}
 {{ end }}
 {{ define "main" }}
-<div class="hide-on-large-only">
+<div class="hide-on-large-only show-print">
   {{- partial "mug.html" . -}}
 </div>
+<div class="intro">
+  <div class="row">
+    <div class="col s12">
+      {{ $path := (path.Join $.Page.File.Dir "_includes/about.md") }}
+      {{ $about := readFile $path }}
+      {{ $about | markdownify }}
+    </div>  
+  </div>
+</div>
+<br>
+<h3 class="timeline-title">Experience</h3>
 <div class="timeline">
   {{ range $index, $element := .Paginator.Pages }}
     <div class="row timeline-item">
@@ -17,17 +28,25 @@
         <div class="card hoverable blue-grey darken-3">
           <div class="card-content">
               <span class="card-title">{{ .Title | safeHTML }}</span>
-              <p>{{ .Summary }}</p>
-          </div>
-          <div class="card-action right-align">
-            <a href="{{ .Permalink }}" class="no-margin">More</a>
-          </div>
+              <div class="post-content">
+                {{ .Content }}
+              </div>
+            </div>
         </div>
       </div>
     </div>
   {{ end }}
 </div>
-<div class="footer-home hide-on-large-only">
+<div class="additional">
+  <div class="row">
+    <div class="col s12">
+      {{ $path := (path.Join $.Page.File.Dir "_includes/additional.md") }}
+      {{ $additional := readFile $path }}
+      {{ $additional | markdownify }}
+    </div>  
+  </div>
+</div>
+<div class="footer-home hide-on-large-only hide-print">
   <a href="/">Home</a>
 </div>
 {{ end }}

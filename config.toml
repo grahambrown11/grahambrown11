@@ -3,7 +3,15 @@ languageCode = "en-gb"
 title = "Graham Brown"
 publishDir = "docs"
 theme = "gb"
-googleAnalytics = "UA-137430899-1"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-ZRRYX04SYY'
 
 [menu]
 
