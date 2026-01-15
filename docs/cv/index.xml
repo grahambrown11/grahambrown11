@@ -4,89 +4,93 @@
     <title>CV on Graham Brown</title>
     <link>https://grahambrown11.com/cv/</link>
     <description>Recent content in CV on Graham Brown</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://grahambrown11.com/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://grahambrown11.com/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Engineer, Stitch Money</title>
+      <link>https://grahambrown11.com/cv/9/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://grahambrown11.com/cv/9/</guid>
+      <description>&lt;p&gt;Implementing Android multi-module project for multiple payment terminals brands in a PCI P2PE solution.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Senior Developer &amp; Solution Architect, ExiPay Technologies</title>
       <link>https://grahambrown11.com/cv/8/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/cv/8/</guid>
-      <description>&lt;p&gt;Design, build and maintain a PCI certified payment switching platform.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Design, build and maintain a multi-tenant PCI certified payment switching platform running on Hashicorp Nomad for a cloud agnostic solution.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Senior Developer &amp; Solution Architect, ono//connect</title>
       <link>https://grahambrown11.com/cv/7/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/cv/7/</guid>
-      <description>&lt;p&gt;Financail transaction switching and integraitions from merchant teminals to banks.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Financial transaction switching and integrations from merchant terminals to banks.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Developer &amp; IT Operations, Different&amp;nbsp;Life</title>
       <link>https://grahambrown11.com/cv/6/</link>
       <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/cv/6/</guid>
       <description>&lt;p&gt;Implement open source technologies and platforms to build an online life insurance system facilitated by a call centre.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>BI Developer, ABSA</title>
       <link>https://grahambrown11.com/cv/5/</link>
       <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/cv/5/</guid>
       <description>&lt;p&gt;Contracting position where I helped apply software development best practices to aid the growth and reputability of the team.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Developer, Ledula</title>
       <link>https://grahambrown11.com/cv/4/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/cv/4/</guid>
       <description>&lt;p&gt;One of the 4 co-founders, I was everything from developer to barista - my responsibility was implementing the idea: finding service providers your friends trust.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Senior Management and IT Architect, healthbridge</title>
       <link>https://grahambrown11.com/cv/3/</link>
       <pubDate>Tue, 01 Apr 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/cv/3/</guid>
       <description>&lt;p&gt;Architecting systems for workflow integration and real-time data switching to aid proficient healthcare practice management and being an integral part of MANCO which involved strategic planning and driving company values.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Developer, healthbridge</title>
       <link>https://grahambrown11.com/cv/2/</link>
       <pubDate>Wed, 01 Oct 2003 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/cv/2/</guid>
       <description>&lt;p&gt;Creating a framework to handle the complexities of multi-threading, configuration and message flow for real-time switching and implementing a customers portal. Found a way to minimise use of server resources by combining multiple applications into one but still allowing the flexibility to run independently too.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Support Engineer, healthbridge</title>
       <link>https://grahambrown11.com/cv/1/</link>
       <pubDate>Mon, 01 Nov 1999 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/cv/1/</guid>
       <description>&lt;p&gt;Installing, maintaining and monitoring the server and network infrastructure. Integral in the Year 2000 preparation testing both hardware and software.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Education</title>
       <link>https://grahambrown11.com/cv/0/</link>
       <pubDate>Mon, 01 Nov 1999 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/cv/0/</guid>
-      <description>&lt;p&gt; &lt;/p&gt;</description>
+      <description></description>
     </item>
-    
+    <item>
+      <title></title>
+      <link>https://grahambrown11.com/cv/_includes/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://grahambrown11.com/cv/_includes/about/</guid>
+      <description>&lt;h3 id=&#34;about-me&#34;&gt;About Me&lt;/h3&gt;&#xA;&lt;p&gt;I am a fullstack software developer with experience in multiple technologies and code languages. I have architected and developed apps for the web as well as mobile and have worked on both the frontend and backend of the various systems. The majority of my experience is in: engineering on backend systems written in Java and Kotlin using the SpringBoot framework; web frontends using Angular or React; and mobile app development primarily on Android. I enjoy being involved in solution design from the initial stages of understanding the business problem to engineering the software and getting the solution running on local servers or cloud platforms like AWS or Azure. A couple of my favourite projects include building a dialler that was fully integrated into an insurance policy platform (which I was also involved in building) at Different Life. A sales agent in the call centre could retrieve a lead and phone them with a simple button click. Besides the call being recorded, events from the sales process were stored and could be used to jump to that spot in the call recording when playing back the recording. Recently at Stitch Money I implemented a payment application in a multi-module Android project that runs on different vendor terminals. The application operates in a standalone or integrated mode. In standalone a merchant captures the sale amount and the customer presents their card. Alternatively a merchant’s POS (point of sale) system can be integrated to initiate the payment using an SDK when the app is on the device or via Rest APIs when external. This solution was developed and certified according to international payment standards (EMV L3 and PCI P2PE).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://grahambrown11.com/cv/_includes/additional/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://grahambrown11.com/cv/_includes/additional/</guid>
+      <description>&lt;h3 id=&#34;additional&#34;&gt;Additional:&lt;/h3&gt;&#xA;&lt;p&gt;Here are some additional projects:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/ari4java/ari4java&#34;&gt;ARI4Java&lt;/a&gt;: I am now the owner and maintainer of this project which provides bindings for Java for the the Asterisk REST Interface (ARI)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/grahambrown11/buzz-star&#34;&gt;Buzz*&lt;/a&gt;: I created this extension for Google Chrome which is a phone for connecting to Asterisk using WebRTC&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/esphome/esphome&#34;&gt;ESPHome&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/home-assistant/core&#34;&gt;HomeAssistant&lt;/a&gt;: I created the Alarm Control Panel for ESPHome along with the integration into HomeAssistant&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
   </channel>
 </rss>

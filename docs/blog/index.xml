@@ -4,62 +4,51 @@
     <title>Blog on Graham Brown</title>
     <link>https://grahambrown11.com/blog/</link>
     <description>Recent content in Blog on Graham Brown</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://grahambrown11.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://grahambrown11.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is My Alarm Panel Smart?</title>
       <link>https://grahambrown11.com/blog/smart-alarm/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/blog/smart-alarm/</guid>
       <description>&lt;p&gt;In this modern world with the Internet everything has become &lt;em&gt;smart&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Business Continuity in the COVID-19 pandemic</title>
       <link>https://grahambrown11.com/blog/business_continuity/</link>
       <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/blog/business_continuity/</guid>
       <description>&lt;p&gt;COVID-19 has forced many businesses to act on their continuity plans. Fortunately, as we operate mostly online we were able to execute a plan with relative ease.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>UPS Monitoring</title>
       <link>https://grahambrown11.com/blog/ups_monitor/</link>
       <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/blog/ups_monitor/</guid>
       <description>&lt;p&gt;In order to run any computer you need power - so without power your computer is rendered useless, and that effectively renders a modern business dead too.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Asterisk Africa Community Conference 2018</title>
       <link>https://grahambrown11.com/blog/asterisk-africa-2018/</link>
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/blog/asterisk-africa-2018/</guid>
       <description>&lt;p&gt;I got to present at and attend the Asterisk Africa Community Conference 2018.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hacktoberfest (Open source contribution)</title>
       <link>https://grahambrown11.com/blog/hacktoberfest-2019/</link>
       <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/blog/hacktoberfest-2019/</guid>
       <description>&lt;p&gt;Most businesses use Open Source Software in some way, whether it’s bundled in a product they purchased or using it directly, however not many give back to those projects…&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building a website with Hugo</title>
       <link>https://grahambrown11.com/blog/hugo/</link>
       <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://grahambrown11.com/blog/hugo/</guid>
       <description>&lt;p&gt;When it comes to hosting a website there are many options - from using a database with a programming language that generates pages to hand editing pages or somewhere in-between.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

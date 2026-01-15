@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html><head>
+<html>
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
      
     <link rel="stylesheet" href="https://grahambrown11.com/css/main.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <title>Business Continuity in the COVID-19 pandemic | Graham</title>
+    <title>Business Continuity in the COVID-19 pandemic | Graham's Blog</title>
 </head>
 <body class="blue-grey darken-4">
         <main class="">
@@ -34,7 +35,7 @@ Installing a VPN Server at the office
 Setting up VPN Clients on their computers</p>
 <p>VPN is an acronym for Virtual Private Network it creates a secure connection from the users computer to the company network so you can continue to work as if you were located at the office. There are many software and hardware options available for creating a VPN. We use <a href="https://pritunl.com/">Pritunl</a> (pronounced pri-tunnel), which is a nicely wrapped version of OpenVPN, with both a free or paid option. We use the free version to access servers for remote support which has worked well for that. The office VPN for all the staff remote is not an ongoing requirement, so we opted to use the free version for that too. Setting up the VPN Server was a breeze, however there was a hurdle setting up the Chromebooks.</p>
 <p>Chromebooks come with a built-in OpenVPN client, but setup is complex requiring certificates and other details and also lacks an import function. Fortunately there is a hidden option to import an <a href="https://chromium.googlesource.com/chromium/src/+/master/components/onc/docs/onc_spec.md">Open Network Configuration</a> in ChromeOS and caters for VPN configuration. So I wrote a bash script that can download the profile from the temporary links Pritnul generates and creates an ONC file. This file can be imported at the special URL chrome://net-internals/#chromeos, which made setting up the Chromebooks easier.</p>
-<script type="application/javascript" src="https://gist.github.com/grahambrown11/cee9cfeb53ea2d76eb000bef1014c8b4.js?file=convertvpn.sh"></script>
+<script src="https://gist.github.com/grahambrown11/cee9cfeb53ea2d76eb000bef1014c8b4.js?file=convertvpn.sh"></script>
 
 <p>Our continuity is now in place with the majority of our staff working from home. I hope my experience can help your continuity plan.</p>
     </div>
@@ -52,16 +53,19 @@ Setting up VPN Clients on their computers</p>
   });
 </script>
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-137430899-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRRYX04SYY"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZRRYX04SYY');
+        }
+      </script>
 </body>
 </html>
